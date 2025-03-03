@@ -119,7 +119,7 @@ nav ul li a:hover:after {
 }
 
 .cta-button {
-    background-color: var(--orange);
+    background-color: var(--teal);
     color: white;
     padding: 12px 30px;
     border-radius: 30px;
@@ -131,7 +131,7 @@ nav ul li a:hover:after {
 }
 
 .cta-button:hover {
-    background-color: var(--teal);
+    background-color: var(--orange);
     color: white;
     transform: translateY(-3px);
 }
@@ -277,7 +277,7 @@ nav ul li a:hover:after {
 }
 
 .testimonials {
-    background-color: var(--teal);
+    background-color: var(--dark-green);
     color: white;
     padding: 5rem 5%;
     text-align: center;
@@ -343,7 +343,7 @@ nav ul li a:hover:after {
 }
 
 .blog-date {
-    color: #888;
+    color: #3b3b3b;
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
 }
@@ -358,7 +358,7 @@ nav ul li a:hover:after {
     display: inline-block;
     margin-top: 1rem;
     font-weight: 600;
-    color: var(--orange);
+    color: var(--dark-green);
 }
 
 .cta-section {
@@ -458,6 +458,7 @@ footer {
     align-items: center;
     justify-content: center;
     transition: background 0.3s;
+    color: white;
 }
 
 .social-icon:hover {
