@@ -92,9 +92,8 @@ nav ul li a:hover:after {
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/api/placeholder/1200/800');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1586094332115-680788e0182f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -137,7 +136,6 @@ nav ul li a:hover:after {
     transform: translateY(-3px);
 }
 
-/* About Section */
 .about {
     padding: 5rem 5%;
     max-width: 1200px;
@@ -180,7 +178,6 @@ nav ul li a:hover:after {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Services Section */
 .services {
     background-color: #f9f9f9;
     padding: 5rem 5%;
@@ -234,7 +231,6 @@ nav ul li a:hover:after {
     margin-bottom: 0.5rem;
 }
 
-/* Destinations Section */
 .destinations {
     padding: 5rem 5%;
     max-width: 1200px;
@@ -280,7 +276,6 @@ nav ul li a:hover:after {
     margin-bottom: 0.5rem;
 }
 
-/* Testimonials Section */
 .testimonials {
     background-color: var(--teal);
     color: white;
@@ -314,7 +309,6 @@ nav ul li a:hover:after {
     font-weight: 600;
 }
 
-/* Blog Preview Section */
 .blog-preview {
     padding: 5rem 5%;
     max-width: 1200px;
@@ -367,9 +361,8 @@ nav ul li a:hover:after {
     color: var(--orange);
 }
 
-/* CTA Section */
 .cta-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1200/800');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1565873188259-a67a1baab536?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -389,7 +382,6 @@ nav ul li a:hover:after {
     font-size: 1.1rem;
 }
 
-/* Footer */
 footer {
     background-color: var(--dark-green);
     color: white;
@@ -479,7 +471,6 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Responsive Design */
 @media (max-width: 992px) {
     .about-content {
         flex-direction: column;
